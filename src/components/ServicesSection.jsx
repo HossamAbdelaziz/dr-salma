@@ -24,7 +24,7 @@ const services = [
     },
     {
         title: "Reproductive & Fertility Health",
-        headerImage: "/images/fertility-banner.jpg",
+        headerImage: "/images/fertility-banner.png",
         introLabel: "If You’re Struggling With…",
         introText:
             "Fertility challenges, painful periods, or reproductive health concerns that no one seems to understand",
@@ -40,7 +40,7 @@ const services = [
     },
     {
         title: "Energy & Wellness Optimization",
-        headerImage: "/images/energy-banner.jpg",
+        headerImage: "/images/energy-banner.png",
         introLabel: "If You’re Struggling With…",
         introText:
             "Chronic fatigue, anxiety, or pain that limits your daily life and steals your joy",
@@ -56,7 +56,7 @@ const services = [
     },
     {
         title: "Comprehensive Women’s Care",
-        headerImage: "/images/comprehensive-banner.jpg",
+        headerImage: "/images/comprehensive-banner.png",
         introLabel: "If You’re Struggling With…",
         introText:
             "Feeling “off” but not knowing why, or wanting personalized care that treats you as a whole person",
