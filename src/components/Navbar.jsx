@@ -17,8 +17,8 @@ export default function Navbar() {
 
     return (
         <header className="bg-brand-bg/50 backdrop-blur-sm relative">
-            {/* Main navbar bar */}
-            <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+            {/* Main navbar */}
+            <div className="container py-4 flex items-center justify-between">
                 {/* Logo + title */}
                 <div className="flex items-center space-x-2">
                     <Image src="/images/logo.png" alt="Dr Salma Logo" width={70} height={70} />
@@ -74,8 +74,8 @@ export default function Navbar() {
 
             {/* MOBILE DRAWER + OVERLAY */}
             <div
-                className={`fixed inset-0 z-50 flex transition-opacity duration-300 ease-in-out
-    ${open ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+                className={`fixed inset-0 z-50 flex transition-opacity duration-300 ease-in-out ${open ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                    }`}
             >
                 {/* Overlay */}
                 <div
@@ -85,9 +85,8 @@ export default function Navbar() {
 
                 {/* Drawer panel */}
                 <div
-                    className={`relative ml-auto w-3/4 max-w-xs bg-white shadow-lg transform transition-transform duration-300 ease-in-out
-      ${open ? 'translate-x-0' : 'translate-x-full'}
-    h-screen overflow-y-auto`}
+                    className={`relative ml-auto w-3/4 max-w-xs bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${open ? 'translate-x-0' : 'translate-x-full'
+                        } h-screen overflow-y-auto`}
                 >
                     {/* Close button */}
                     <div className="flex justify-end p-4">
@@ -135,7 +134,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-
         </header>
     )
 }

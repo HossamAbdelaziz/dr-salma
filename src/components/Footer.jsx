@@ -15,10 +15,10 @@ import {
 export default function Footer() {
     return (
         <footer className="bg-brand-green text-white pt-12 pb-6">
-            <div className="container mx-auto px-4">
+            {/* Use container for centering & gutters */}
+            <div className="container">
                 {/* Grid: 2 cols on sm, 4 on md+ */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-
                     {/* 1. Branding (spans both cols on mobile) */}
                     <div className="col-span-2 md:col-span-1 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
                         <div className="flex items-center space-x-2">
@@ -26,7 +26,8 @@ export default function Footer() {
                             <span className="font-serif text-2xl">Dr. Salma</span>
                         </div>
                         <p className="text-sm">
-                            Women Ontario Hub<br />
+                            Women Ontario Hub
+                            <br />
                             Where Medical Expertise Meets Natural Healing
                         </p>
                         <div className="flex space-x-4">

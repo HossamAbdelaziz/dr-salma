@@ -1,0 +1,50 @@
+{
+    "title": "Hormonal Health Solutions",
+    "subtitle": "Dr. Salma Provides...",
+    "centerTagline": "Dr. Salma Provides",
+    "badge": "Hormonal Imbalances That Control Your Life...",
+    "rightQuote": "Finally Feel in Control of Your Body and Hormones Again",
+    "centerImage": "/images/hormonal/center.png",
+    "infoTitle": "What Are Hormonal Imbalances?",
+    "infoDescription": "Hormonal imbalances occur...",
+    "signsTitle": "Common Signs Include:",
+    "signsList": [
+        "Irregular periods",
+        "Fatigue",
+        "Weight gain"
+    ],
+    "highlightTitle": "PCOS",
+    "highlightStats": "Affects up to 1.4M Canadian women...",
+    "highlightDiagnosisTime": "Average diagnosis time: 4.3 years after first symptoms",
+    "highlightImage": "/images/hormonal/highlight.png",
+    "solutionCards": [
+        {
+            "title": "PCOS Management",
+            "description": "Finally understand your body...",
+            "points": [
+                "Assessment",
+                "Lab interpretation"
+            ],
+            "cta": "Learn More About PCOS Solutions"
+        },
+        {
+            "title": "Hashimoto’s Management",
+            "description": "End the exhaustion and brain fog...",
+            "points": [
+                "Thyroid analysis",
+                "Medication"
+            ],
+            "cta": "Discover Thyroid Solutions"
+        }
+    ],
+    "whyList": [
+        "Can interpret complex labs",
+        "Natural expertise",
+        "Specialized in hormonal care"
+    ],
+    "certifications": [
+        "20+ Years Experience",
+        "Licensed Naturopath",
+        "Traditional Chinese Medicine"
+    ]
+}

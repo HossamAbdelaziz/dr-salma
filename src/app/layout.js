@@ -20,7 +20,12 @@ export default function RootLayout({ children }) {
       </head>
       <body className="w-screen overflow-x-hidden bg-brand-bg text-brand-green font-sans min-h-screen flex flex-col">
         <Navbar />
-        <main className="flex-grow">{children}</main>
+
+        {/* wrap all regular page sections in .container */}
+        <main className="container flex-grow">
+          {children}
+        </main>
+
         <Footer />
       </body>
     </html>

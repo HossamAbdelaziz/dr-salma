@@ -18,8 +18,6 @@ export default function Home() {
       <TestimonialSection />
       <ContactSection />
 
-
-
       {/* TODO: add subsequent sections (SolutionsGrid, AboutSnippet, Testimonials, ContactForm, etc.) */}
     </>
   );

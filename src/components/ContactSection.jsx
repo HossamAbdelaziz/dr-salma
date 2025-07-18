@@ -41,9 +41,9 @@ export default function ContactSection() {
                             <Image
                                 src="/images/heart-large.png"
                                 alt="heart"
-                                width={300}
+                                width={400}
                                 height={300}
-                                className="opacity-90"
+                                className="opacity-50"
                             />
                         </div>
 

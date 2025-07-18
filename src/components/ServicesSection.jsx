@@ -71,10 +71,9 @@ const services = [
 export default function ServicesSection() {
     return (
         <section className="py-16 bg-brand-bg">
-            <div className="container mx-auto px-4">
+            <div className="container">
                 {/* Section Header */}
                 <div className="relative mb-12 flex items-center justify-center">
-                    {/* Decorative lines only on desktop */}
                     <div className="hidden lg:block absolute left-0">
                         <Image src="/images/line-decor-left.svg" alt="" width={120} height={20} />
                     </div>
@@ -86,15 +85,13 @@ export default function ServicesSection() {
                     </div>
                 </div>
 
-                {/* Cards Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                {/* Cards Grid: 1 column mobile, 2 columns small+ */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     {services.map((svc) => (
                         <div
                             key={svc.title}
                             className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full"
                         >
-
-                            {/* Use grid for the card body */}
                             <div className="grid grid-rows-[auto_auto_auto_1fr_auto] h-full">
                                 {/* 1. Header Image */}
                                 <div className="relative h-40 row-span-1">
@@ -149,9 +146,6 @@ export default function ServicesSection() {
                                 </div>
                             </div>
                         </div>
-
-
-
                     ))}
                 </div>
             </div>
